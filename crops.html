@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Crops - AgriGrow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-nav">
+        <a href="index.html" class="logo-text">AgriGrow</a>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="dash-layout">
+        <aside class="sidebar-simple">
+            <h3>Menu</h3>
+            <hr><br>
+            <ul>
+                <li><a href="dashboard.html">Overview</a></li>
+                <li><a href="crops.html"><b>Crops</b></a></li>
+                <li><a href="market.html">Market</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content-simple">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h1>Crop Management</h1>
+                <button class="btn-simple">+ Add New</button>
+            </div>
+            <br>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Crop Name</th>
+                        <th>Area</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wheat</td>
+                        <td>45 Acres</td>
+                        <td>Growing</td>
+                    </tr>
+                    <tr>
+                        <td>Corn</td>
+                        <td>30 Acres</td>
+                        <td>Watering</td>
+                    </tr>
+                    <tr>
+                        <td>Tomato</td>
+                        <td>10 Acres</td>
+                        <td>Harvested</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+</html>

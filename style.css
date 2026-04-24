@@ -1,0 +1,188 @@
+/* Simple & Professional Agriculture CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+:root {
+    --green-dark: #2d6a4f;
+    --green-mid: #40916c;
+    --green-light: #d8f3dc;
+    --gray-light: #f8f9fa;
+    --border-color: #dee2e6;
+    --text-dark: #212529;
+}
+
+body {
+    background-color: var(--gray-light);
+    color: var(--text-dark);
+}
+
+/* Header & Nav */
+header.top-nav {
+    background-color: var(--green-dark);
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-simple {
+    background-color: var(--green-mid);
+    color: white;
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.hero-simple h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-simple p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Common Layout */
+.container {
+    padding: 2rem 5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-simple {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card-simple h3 {
+    margin-bottom: 1rem;
+    color: var(--green-dark);
+}
+
+/* Forms */
+.form-box {
+    background: white;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 4rem auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.btn-simple {
+    background-color: var(--green-dark);
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-simple:hover {
+    background-color: var(--green-mid);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: white;
+}
+
+th, td {
+    border: 1px solid var(--border-color);
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    background-color: var(--green-light);
+}
+
+/* Dashboard Sidebar Layout */
+.dash-layout {
+    display: flex;
+}
+
+.sidebar-simple {
+    width: 200px;
+    background: white;
+    border-right: 1px solid var(--border-color);
+    min-height: 90vh;
+    padding: 1rem;
+}
+
+.sidebar-simple ul {
+    list-style: none;
+}
+
+.sidebar-simple ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar-simple ul li a {
+    text-decoration: none;
+    color: var(--text-dark);
+}
+
+.main-content-simple {
+    flex: 1;
+    padding: 2rem;
+}
